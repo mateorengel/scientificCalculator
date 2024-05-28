@@ -8,7 +8,34 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.5em; /* Tamaño de fuente grande */
+    font-weight: bold; /* Negrita */
+    text-transform: uppercase; /* Transformar a mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    background-color: #222; /* Fondo del título */
+    color: #fdfbfb; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+h2 {
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.5em; /* Tamaño de fuente grande */
+    font-weight: bold; /* Negrita */
+    text-transform: uppercase; /* Transformar a mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    background-color: #222; /* Fondo del título */
+    color: #fdfbfb; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
 .calculator {
     background-color: #333;
     padding: 20px;
@@ -22,6 +49,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #444;
+    color: #fcfbfb;
     border-radius: 5px;
     margin-bottom: 20px;
     padding: 10px;
