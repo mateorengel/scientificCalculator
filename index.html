@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Científica</title>
     <link rel="stylesheet" href="/src/css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.1/math.min.js"></script>
 </head>
 <body>
     <div class="calculator">
@@ -24,6 +25,7 @@
             <button class="button number" onclick="appendToDisplay('5')">5</button>
             <button class="button number" onclick="appendToDisplay('6')">6</button>
             <button class="button operator" onclick="appendToDisplay('*')">*</button>
+            
             <button class="button number" onclick="appendToDisplay('1')">1</button>
             <button class="button number" onclick="appendToDisplay('2')">2</button>
             <button class="button number" onclick="appendToDisplay('3')">3</button>
@@ -35,10 +37,12 @@
             <button class="button function" onclick="appendToDisplay('sin(')">sin</button>
             <button class="button function" onclick="appendToDisplay('cos(')">cos</button>
             <button class="button function" onclick="appendToDisplay('tan(')">tan</button>
-            <button class="button function" onclick="appendToDisplay('Math.log(')">ln</button>
-            <button class="button function" onclick="appendToDisplay('Math.exp(')">exp</button>
+            <button class="button operator" onclick="appendToDisplay('^')">^</button>
+            <button class="button function" onclick="appendToDisplay('log(')">ln</button>
+            <button class="button function" onclick="appendToDisplay('exp(')">exp</button>
+            <button class="button operator" onclick="appendToDisplay('sqrt(')">sqrt</button>
         </div>
     </div>
-    <script src="./src/js/main.js"></script>
+    <script src="/src/js/main.js"></script>
 </body>
 </html>

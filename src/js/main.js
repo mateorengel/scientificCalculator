@@ -16,7 +16,9 @@ function appendToDisplay(value) {
 function calculate() {
     const display = document.getElementById('display');
     try {
-        display.value = eval(display.value);
+        // Evaluar la expresión usando math.js
+        const result = math.evaluate(display.value);
+        display.value = result;
     } catch (error) {
         display.value = 'Error';
     }
