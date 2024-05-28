@@ -9,17 +9,21 @@ function deleteLast() {
 }
 
 function appendToDisplay(value) {
-    const display = document.getElementById('display');
+    const display = document.getElementById('display'); 
     display.value += value;
 }
 
 function calculate() {
     const display = document.getElementById('display');
     try {
-        // Evaluar la expresión usando math.js
+        // Evaluar la expresión usando math.js. *No funcionaban todas las funciones sin esta librería
         const result = math.evaluate(display.value);
         display.value = result;
+        
+
     } catch (error) {
         display.value = 'Error';
+        alert("Posible error de sintáxis");
     }
 }
+
